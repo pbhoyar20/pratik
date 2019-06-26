@@ -1,0 +1,88 @@
+An example of a functional requirement would be:
+
+A system must send an email whenever a certain condition is met (e.g. an order is placed, a customer signs up, etc).
+A related non-functional requirement for the system may be:
+
+Emails should be sent with a latency of no greater than 12 hours from such an activity.
+The functional requirement is describing the behavior of the system as it relates to the system's functionality. The non-functional requirement elaborates a performance characteristic of the system.
+
+Typically non-functional requirements fall into areas such as:
+
+Accessibility
+Capacity, current and forecast
+Compliance
+Documentation
+Disaster recovery
+Efficiency
+Effectiveness
+Extensibility
+Fault tolerance
+Interoperability
+Maintainability
+Privacy
+Portability
+Quality
+Reliability
+Resilience
+Response time
+Robustness
+Scalability
+Security
+Stability
+Supportability
+Testability
+A more complete list is available at Wikipedia's entry for non-functional requirements.
+
+Non-functional requirements are sometimes defined in terms of metrics (i.e. something that can be measured about the system) to make them more tangible. Non-functional requirements may also describe aspects of the system that don't relate to its execution, but rather to its evolution over time (e.g. maintainability, extensibility, documentation, etc.).
+---------------------------------------------------------------------------------------------------------------
+Functional requirements
+Functional requirements specifies a function that a system or system component must be able to perform. It can be documented in various ways. The most common ones are written descriptions in documents, and use cases.
+
+Use cases can be textual enumeration lists as well as diagrams, describing user actions. Each use case illustrates behavioural scenarios through one or more functional requirements. Often, though, an analyst will begin by eliciting a set of use cases, from which the analyst can derive the functional requirements that must be implemented to allow a user to perform each use case.
+
+Functional requirements is what a system is supposed to accomplish. It may be
+
+Calculations
+Technical details
+Data manipulation
+Data processing
+Other specific functionality
+A typical functional requirement will contain a unique name and number, a brief summary, and a rationale. This information is used to help the reader understand why the requirement is needed, and to track the requirement through the development of the system.
+
+Non-functional requirements
+LBushkin have already explained more about Non-functional requirements. I will add more.
+
+Non-functional requirements are any other requirement than functional requirements. This are the requirements that specifies criteria that can be used to judge the operation of a system, rather than specific behaviours.
+
+Non-functional requirements are in the form of "system shall be ", an overall property of the system as a whole or of a particular aspect and not a specific function. The system's overall properties commonly mark the difference between whether the development project has succeeded or failed.
+
+Non-functional requirements - can be divided into two main categories:
+
+Execution qualities, such as security and usability, which are observable at run time.
+Evolution qualities, such as testability, maintainability, extensibility and scalability, which are embodied in the static structure of the software system.
+Non-functional requirements place restrictions on the product being developed, the development process, and specify external constraints that the product must meet.
+The IEEE-Std 830 - 1993 lists 13 non-functional requirements to be included in a Software Requirements Document.
+Performance requirements
+Interface requirements
+Operational requirements
+Resource requirements
+Verification requirements
+Acceptance requirements
+Documentation requirements
+Security requirements
+Portability requirements
+Quality requirements
+Reliability requirements
+Maintainability requirements
+Safety requirements
+Whether or not a requirement is expressed as a functional or a non-functional requirement may depend:
+
+on the level of detail to be included in the requirements document
+the degree of trust which exists between a system customer and a system developer.
+Ex. A system may be required to present the user with a display of the number of records in a database. This is a functional requirement. How up-to-date [update] this number needs to be, is a non-functional requirement. If the number needs to be updated in real time, the system architects must ensure that the system is capable of updating the [displayed] record count within an acceptably short interval of the number of records changing.
+
+References:
+
+Functional requirement
+Non-functional requirement
+Quantification and Traceability of Requirements
